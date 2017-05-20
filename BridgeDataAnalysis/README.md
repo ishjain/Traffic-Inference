@@ -1,6 +1,6 @@
 # Analysing Bridge Data
 
-test.csv contains four segments Av. speed values in 4 columns. The segments are (obtained from MySQL database)
+test.csv contains four segments Av. speed values in 5 columns. The segments are (obtained from MySQL database)
 
 | 145 | BKN Bridge Manhattan Side - FDR N Catherine Slip  
 
@@ -10,6 +10,7 @@ test.csv contains four segments Av. speed values in 4 columns. The segments are 
 
 | 223 | FDR S Catherine Slip - BKN Bridge Manhattan Side 
 
+| 443 | West St S Battery Pl - BKN Bridge Manhattan Side 
 
 It is used by DataAnalysis.py to plot the data and visualize it.
 The Lat Lon data is also plotted in Google map for visual analysis
