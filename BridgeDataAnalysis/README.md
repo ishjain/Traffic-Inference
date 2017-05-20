@@ -1,6 +1,8 @@
 # Analysing Bridge Data
 
-test.csv contains four segments Av. speed values in 5 columns. The segments are (obtained from MySQL database)
+test.csv contains four segments Av. speed values in 5 columns. (Sampled at every 1 minutes)
+
+The segments are (obtained from MySQL database)
 
 | 145 | BKN Bridge Manhattan Side - FDR N Catherine Slip  
 
