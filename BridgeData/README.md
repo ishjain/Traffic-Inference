@@ -1,7 +1,7 @@
 # Time Series and Linear Regression on Bridge Dataset
 
 Step-0: Use MySQL traffic data and copy paste to BridgeSegment.txt for 5 bridges data.
-
+```
   * mysql -h 10.230.9.183 -u reader
   * use traffic;
   * show tables;
@@ -15,7 +15,7 @@ Step-0: Use MySQL traffic data and copy paste to BridgeSegment.txt for 5 bridges
   * select * from reading where node = 2 limit 40,285; # Day 3
   * select id from node;
   * select count(*) from reading where id=1,2,3,4;
-
+```
 
 Step-1: dataBridge.m contains Average speed and time data for 5 bridge segments. This file will be used by other code.
 
