@@ -1,9 +1,13 @@
 # Analysing Bridge Data
 
 test.csv contains four segments Av. speed values in 4 columns. The segments are (obtained from MySQL database)
+
 | 145 | BKN Bridge Manhattan Side - FDR N Catherine Slip  
-| 149 | BQE N Atlantic Ave - BKN Bridge Manhattan Side                                |
+
+| 149 | BQE N Atlantic Ave - BKN Bridge Manhattan Side                                
+
 | 150 | BQE N Atlantic Ave - MAN Bridge Manhattan Side 
+
 | 223 | FDR S Catherine Slip - BKN Bridge Manhattan Side 
 
 
