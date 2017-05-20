@@ -16,6 +16,7 @@ Step-0: Use MySQL traffic data and copy paste to BridgeSegment.txt for 5 bridges
 * select id from node;
 * select count(*) from reading where id=1,2,3,4;
 
+
 Step-1: dataBridge.m contains Average speed and time data for 5 bridge segments. This file will be used by other code.
 
 Step-2: Run plotBridge.m for visulaizing the data
