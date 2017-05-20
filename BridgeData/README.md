@@ -17,6 +17,15 @@ Step-0: Use MySQL traffic data and copy paste to BridgeSegment.txt for 5 bridges
   * select count(*) from reading where id=1,2,3,4;
 ```
 
+The 5 segments obtained from MySQL database
+```
+| 145 | BKN Bridge Manhattan Side - FDR N Catherine Slip  
+| 149 | BQE N Atlantic Ave - BKN Bridge Manhattan Side                                
+| 150 | BQE N Atlantic Ave - MAN Bridge Manhattan Side 
+| 223 | FDR S Catherine Slip - BKN Bridge Manhattan Side 
+| 443 | West St S Battery Pl - BKN Bridge Manhattan Side 
+```
+
 Step-1: dataBridge.m contains Average speed and time data for 5 bridge segments. This file will be used by other code.
 
 Step-2: Run plotBridge.m for visulaizing the data
